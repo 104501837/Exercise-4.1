@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Energy Consumption</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Logo linking to the Home page -->
+            <a href="index.html">
+                <img id="power-logo" src="images/PowerIcon.png" alt="Company Power Logo">
+            </a>
+            <!-- Navigation Menu -->
+            <ul>
+                <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="televisions.html" class="nav-link" data-page="televisions">Televisions</a></li>
+                <li><a href="about.html" class="nav-link active" data-page="about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h1>About Us</h1>
+
+        <!-- Section: Introduction to the Website's Purpose -->
+        <section id="about-energy">
+            <h2>Our Mission: Promoting Energy Efficiency</h2>
+            <p>Our website is dedicated to educating consumers about appliance energy consumption in the Australian market. 
+            We aim to help users make informed choices that reduce electricity bills, improve sustainability, and contribute to a greener future.</p>
+        </section>
+
+        <!-- Section: Importance of Energy Efficiency -->
+        <section id="why-energy-matters">
+            <h2>Why Energy Efficiency Matters</h2>
+            <p>Energy-efficient appliances help consumers save money and reduce environmental impact. Here’s why energy efficiency is important:</p>
+            <ul>
+                <li> <strong>Lower Energy Bills:</strong> Reducing energy usage saves you money over time.</li>
+                <li> <strong>Environmental Benefits:</strong> Using efficient appliances reduces carbon emissions.</li>
+                <li> <strong>Smart & Sustainable Choices:</strong> Energy-efficient TVs, refrigerators, and washing machines help create a better future.</li>
+            </ul>
+        </section>
+
+        <!-- Section: Services and Information Provided -->
+        <section id="what-we-offer">
+            <h2>What We Offer</h2>
+            <ul>
+                <li> Reliable information on <strong>energy efficiency ratings</strong>.</li>
+                <li> Comparisons of <strong>appliance power consumption</strong>.</li>
+                <li> Practical <strong>energy-saving tips</strong> for consumers.</li>
+                <li> Guides on choosing the <strong>best energy-efficient appliances</strong> in Australia.</li>
+            </ul>
+        </section>
+
+        <!-- Sidebar Section: Quick Energy-Saving Tips -->
+        <aside id="energy-tips">
+            <h3> Quick Energy-Saving Tips</h3>
+            <ul>
+                <li> Use appliances with <strong>high star ratings</strong> for efficiency.</li>
+                <li> Turn off devices instead of leaving them in standby mode.</li>
+                <li> Switch to <strong>LED lighting</strong> and energy-saving modes on TVs.</li>
+                <li> Reduce unnecessary power usage to lower your carbon footprint.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="year"></span> Sahil Amin. Generated with assistance of Copilot and GenAI</p>
+    </footer>
+
+    <!-- JavaScript File for Page Interactivity -->
+    <script src="js/scripts.js"></script>
+    
+    <script>
+        // Automatically update the year in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Energy Consumption</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="css/responsive.css"> <!-- New CSS file for responsive styles -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Logo linking to the Home page -->
+            <a href="index.html">
+                <img id="power-logo" src="images/PowerIcon.png" alt="Power Logo">
+            </a>
+            <!-- Navigation Menu -->
+            <ul>
+                <li><a href="index.html" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="televisions.html" class="nav-link" data-page="televisions">Televisions</a></li>
+                <li><a href="about.html" class="nav-link" data-page="about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h1>Welcome to the Energy Consumption Website</h1>
+        <p>Discover energy-efficient appliances and learn how to reduce electricity consumption in the Australian market.</p>
+    
+        <!-- Section: Graph -->
+        <section id="graph-section">
+            <h2>Energy Consumption Trends</h2> <!-- Title for the graph -->
+            <img src="images/Size vs Avg power.png" alt="Graph showing energy consumption trends">
+            <p>This graph illustrates the average power consumption of televisions based on their screen size, helping consumers make informed decisions about energy-efficient models.</p>
+        </section>
+    
+        <!-- Section: Size vs Power Consumption Graph -->
+        <section id="size-vs-power">
+            <h2>Size vs Power Consumption</h2>
+            <figure>
+                <img src="images/Size vs Avg power.png" alt="Graph showing size vs power consumption">
+                <p>This graph provides a detailed comparison of television screen sizes and their corresponding power consumption, enabling consumers to evaluate how screen dimensions influence energy usage.</p>
+            </figure>
+        </section>
+    
+        <!-- Section: Power Consumption vs Brand Graph -->
+        <section id="brand-vs-power">
+            <h2>Power Consumption vs Brand</h2>
+            <figure>
+                <img src="images/Power Consumption vs Brand.png" alt="Graph showing power consumption by brand">
+            </figure>
+            <p>This graph compares the average power consumption of different television brands, helping consumers identify energy-efficient brands. Understanding how brands differ in power consumption can guide you in selecting a television that aligns with your energy-saving goals. This comparison highlights the efficiency of various brands in the market.</p>
+        </section>
+    
+        
+
+        <!-- Section: SVG House -->
+        <section id="svg-house" style="text-align: center; margin: 30px 0;">
+            <h2>My SVG House</h2>
+            <svg width="600" height="400" >
+                <!-- Grouping and Transformations -->
+                <g transform="translate(50, 50)">
+                    <!-- House Base -->
+                    <rect x="50" y="100" width="200" height="150" fill="#deb887  " stroke="#5A2D0C" stroke-width="3" />
+
+                    <!-- Roof -->
+                    <path d="M50 100 L150 30 L250 100 Z" fill="#A52A2A" stroke="##cf1020 " stroke-width="3" />
+
+                    <!-- Door -->
+                    <rect x="130" y="180" width="40" height="70" fill="#654321" stroke="#3E2C1C" stroke-width="2" />
+                    <circle cx="165" cy="215" r="3" fill="#FFD700" />
+                    
+                    
+                    
+                    <!-- Windows -->
+                    <rect x="70" y="120" width="40" height="40" fill="#ADD8E6" stroke="#5A2D0C" stroke-width="2" />
+                    <line x1="70" y1="140" x2="110" y2="140" stroke="#5A2D0C" stroke-width="2" />
+                    <line x1="90" y1="120" x2="90" y2="160" stroke="#5A2D0C" stroke-width="2" />
+
+                    <rect x="190" y="120" width="40" height="40" fill="#ADD8E6" stroke="#5A2D0C" stroke-width="2" />
+                    <line x1="190" y1="140" x2="230" y2="140" stroke="#5A2D0C" stroke-width="2" />
+                    <line x1="210" y1="120" x2="210" y2="160" stroke="#5A2D0C" stroke-width="2" />
+
+                    <!-- Sun -->
+                        <circle cx="300" cy="50" r="30" fill="#FFD700" />
+                    <line x1="300" y1="10" x2="300" y2="-10" stroke="#FFD700" stroke-width="2" />
+                    <line x1="300" y1="90" x2="300" y2="110" stroke="#FFD700" stroke-width="2" />
+                    <line x1="260" y1="50" x2="240" y2="50" stroke="#FFD700" stroke-width="2" />
+                    <line x1="340" y1="50" x2="360" y2="50" stroke="#FFD700" stroke-width="2" />
+                    <line x1="275" y1="25" x2="260" y2="10" stroke="#FFD700" stroke-width="2" />
+                    <line x1="325" y1="25" x2="340" y2="10" stroke="#FFD700" stroke-width="2" />
+                    <line x1="275" y1="75" x2="260" y2="90" stroke="#FFD700" stroke-width="2" />
+                    <line x1="325" y1="75" x2="340" y2="90" stroke="#FFD700" stroke-width="2" />
+
+                    <!-- Grass -->
+                    <rect x="0" y="250" width="500" height="90" fill="#24d155" />
+                    
+                  <!-- Straight Concrete Footpath -->
+                    <rect x="145" y="250" width="15" height="120" fill="#d3d3d3" stroke="#808080" stroke-width="2" />
+
+                <!-- Flowers -->
+            <!-- Flower 1 -->
+            <line x1="60" y1="280" x2="60" y2="300" stroke="green" stroke-width="7"/>
+            <circle cx="60" cy="275" r="5" fill="yellow"/>
+            <circle cx="55" cy="270" r="4" fill="pink"/>
+            <circle cx="65" cy="270" r="4" fill="pink"/>
+            <circle cx="55" cy="280" r="4" fill="pink"/>
+            <circle cx="65" cy="280" r="4" fill="pink"/>
+
+            <!-- Flower 2 -->
+            <line x1="90" y1="280" x2="90" y2="300" stroke="green" stroke-width="7"/>
+            <circle cx="90" cy="275" r="5" fill="orange"/>
+            <circle cx="85" cy="270" r="4" fill="red"/>
+            <circle cx="95" cy="270" r="4" fill="red"/>
+            <circle cx="85" cy="280" r="4" fill="red"/>
+            <circle cx="95" cy="280" r="4" fill="red"/>
+
+            <!-- Flower 3 -->
+            <line x1="120" y1="280" x2="120" y2="300" stroke="green" stroke-width="7"/>
+            <circle cx="120" cy="275" r="5" fill="white"/>
+            <circle cx="115" cy="270" r="4" fill="blue"/>
+            <circle cx="125" cy="270" r="4" fill="blue"/>
+            <circle cx="115" cy="280" r="4" fill="blue"/>
+            <circle cx="125" cy="280" r="4" fill="blue"/>
+        </g>
+
+            </svg>
+        </section>
+
+        <!-- Section: Annotated SVG House Screenshot -->
+        <section id="annotated-svg-house screenshot" style="text-align: center; margin: 30px 0;">
+            <h2>Annotated SVG House Screenshot</h2>
+            <img src="images/annotated.png" alt="Screenshot of Annotated SVG House" style="max-width: 100%; height: auto;">
+        </section>
+
+            <!-- Section: DOM Screenshot -->
+        <section id="dom-screenshot " style="text-align: center; margin: 30px 0;">
+            <h2>DOM Screenshot</h2>
+            <img src="images/DOM.png" alt="Screenshot of DOM structure" style="max-width: 100%; height: auto;">
+        </section>
+
+
+
+    
+        
+    </main>
+
+     <!-- Sidebar Section: Quick Energy-Saving Tips -->
+     <aside id="energy-tips">
+        <h3> Quick Energy-Saving Tips</h3>
+        <ul>
+            <li> Enable <strong>Energy-Saving Mode</strong> on your TV</li>
+            <li> Reduce <strong>screen brightness</strong> to save power</li>
+            <li> Always <strong>turn off</strong> your TV instead of using standby mode</li>
+            <li> Choose <strong>higher star-rated TVs</strong> for better efficiency</li>
+        </ul>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="year"></span> Sahil Amin. Generated with assistance of Copilot</p>
+    </footer>
+
+    <!-- JavaScript File for Page Interactivity -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/d3script.js"></script> <!-- Ensure this script contains the D3 graph logic -->
+
+    
+    <script>
+        // Automatically update the year in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

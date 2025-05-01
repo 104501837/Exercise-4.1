@@ -1,0 +1,267 @@
+/* ======================= */
+/* General Styles */
+/* ======================= */
+
+body {
+    font-family: Arial, sans-serif; /* Sets the default font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Light gray background for readability */
+}
+
+/* ======================= */
+/* Header & Navigation */
+/* ======================= */
+
+header {
+    background-color: #45a049; /* Green header background */
+    padding: 10px 0; /* Adds vertical padding */
+}
+
+nav {
+    display: flex; /* Makes the navigation bar a flex container */
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Spreads elements evenly */
+    padding: 0 20px; /* Adds horizontal padding */
+}
+
+nav a img {
+    height: 40px; /* Sets logo height */
+    cursor: pointer; /* Makes logo clickable */
+}
+
+nav ul {
+    list-style: none; /* Removes default list styles */
+    display: flex; /* Makes the list horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px; /* Spaces out menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underlines from links */
+    color: white; /* Sets text color */
+    padding: 8px 12px; /* Adds padding to clickable area */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    border-radius: 5px; /* Slightly rounds button edges */
+}
+
+nav ul li a:hover {
+    background-color: #767a76; /* Darker green on hover */
+}
+
+nav ul li a.active {
+    background-color: #2e7d32; /* Even darker green for the active page */
+}
+
+/* ======================= */
+/* Main Content */
+/* ======================= */
+
+main {
+    padding: 20px; /* Adds padding around main content */
+    max-width: 900px; /* Limits content width for readability */
+    margin: 20px auto; /* Centers the main content */
+    background: white; /* White background for contrast */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Adds soft shadow for depth */
+    border-radius: 10px; /* Rounds the corners */
+}
+
+/* ======================= */
+/* Tables Styling */
+/* ======================= */
+
+table {
+    width: 100%; /* Ensures table takes full width */
+    border-collapse: collapse; /* Removes space between borders */
+    margin: 20px 0; /* Adds space above and below */
+    font-size: 16px; /* Increases text readability */
+    background: white; /* White background for clarity */
+    border-radius: 10px; /* Rounds table edges */
+    overflow: hidden; /* Ensures rounded corners apply properly */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray borders */
+    padding: 12px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for table headers */
+    color: white; /* White text for contrast */
+}
+
+/* ======================= */
+/* Section Styling */
+/* ======================= */
+
+section {
+    margin: 30px 0; /* Adds spacing between sections */
+    padding: 20px; /* Adds padding inside sections */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounds corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* ======================= */
+/* Quick Tips Sidebar */
+/* ======================= */
+
+#energy-tips {
+    background-color: #fff3cd; /* Light yellow background */
+    padding: 15px; /* Adds padding inside */
+    border-radius: 10px; /* Rounds corners */
+    margin-top: 20px; /* Adds spacing above */
+    border-left: 5px solid #ff9800; /* Adds an orange left border */
+}
+
+#energy-tips h3 {
+    color: #ff9800; /* Orange text color */
+}
+
+#energy-tips ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+#energy-tips li {
+    padding: 5px 0; /* Adds spacing between list items */
+    font-size: 16px; /* Ensures readability */
+}
+
+/* ======================= */
+/* Footer */
+/* ======================= */
+
+footer {
+    background-color: #4CAF50; /* Matches header color */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers text */
+    padding: 10px 0; /* Adds padding */
+    width: 100%; /* Ensures full-width */
+    position: fixed; /* Keeps footer at the bottom */
+    bottom: 0; /* Sticks footer to bottom of the page */
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+/* ======================= */
+/* Responsive Design for Mobile */
+/* ======================= */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stacks navigation items vertically */
+        text-align: center; /* Centers text */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stacks menu items vertically */
+        padding: 10px 0; /* Adds spacing */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Spaces out list items */
+    }
+
+    main {
+        max-width: 100%; /* Allows main content to take full width */
+        padding: 15px; /* Adjusts padding */
+    }
+
+    table {
+        font-size: 14px; /* Reduces font size for smaller screens */
+    }
+
+    th, td {
+        padding: 10px; /* Adjusts padding */
+    }
+}
+
+figure img {
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes inline spacing below the image */
+    margin: 0 auto; /* Centers the image */
+}
+
+figure {
+    text-align: center; /* Centers the figure content */
+    margin: 20px 0; /* Adds spacing above and below the figure */
+}
+
+#graph-section {
+    text-align: center; /* Center the content in the section */
+    margin: 20px auto; /* Add some spacing around the section */
+}
+
+#graph-section img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Add a light border around the image */
+    border-radius: 8px; /* Slightly round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#graph-section figcaption {
+    text-align: center; /* Center the caption text */
+    font-size: 14px; /* Set a smaller font size for the caption */
+    color: #555; /* Use a subtle gray color */
+    margin-top: 8px; /* Add spacing above the caption */
+    font-style: italic; /* Make the caption text italic */
+}
+
+#size-vs-power {
+    text-align: center; /* Center the content in the section */
+    margin: 20px auto; /* Add some spacing around the section */
+}
+
+#size-vs-power img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Add a light border around the image */
+    border-radius: 8px; /* Slightly round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#size-vs-power figcaption {
+    text-align: center; /* Center the caption text */
+    font-size: 14px; /* Set a smaller font size for the caption */
+    color: #555; /* Use a subtle gray color */
+    margin-top: 8px; /* Add spacing above the caption */
+    font-style: italic; /* Make the caption text italic */
+}
+
+#brand-comparison {
+    margin: 30px 0; /* Adds spacing around the section */
+    padding: 20px; /* Adds padding inside the section */
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+#brand-comparison table {
+    width: 100%; /* Ensures the table takes full width */
+    border-collapse: collapse; /* Removes space between borders */
+    margin: 20px 0; /* Adds spacing above and below the table */
+    font-size: 16px; /* Improves readability */
+    background: white; /* White background for clarity */
+    border-radius: 10px; /* Rounds table edges */
+    overflow: hidden; /* Ensures rounded corners apply properly */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+#brand-comparison th, #brand-comparison td {
+    border: 1px solid #ddd; /* Light gray borders */
+    padding: 12px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+#brand-comparison th {
+    background-color: #4CAF50; /* Green background for table headers */
+    color: white; /* White text for contrast */
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisions - Energy Consumption</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Logo linking to the Home page -->
+            <a href="index.html">
+                <img src="images/PowerIcon.png" alt="Power Logo" id="power-logo">
+            </a>
+            <!-- Navigation Menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="televisions.html" class="active">Televisions</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h1>Television Energy Consumption</h1>
+        <p>Understanding energy consumption can help you choose the most efficient television for your home.</p>
+
+        <!-- Section: Energy Efficiency Ratings for TVs -->
+        <section id="energy-ratings">
+            <h2>Energy Efficiency Ratings in Australia</h2>
+            <p>In Australia, televisions have an energy rating label that helps consumers compare efficiency.</p>
+            
+            <!-- Table: TV Energy Ratings -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Screen Size</th>
+                        <th>Energy Star Rating</th>
+                        <th>Estimated Annual Energy Usage (kWh/year)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>32-inch LED TV</td>
+                        <td>*****</td>
+                        <td>80 kWh</td>
+                    </tr>
+                    <tr>
+                        <td>55-inch OLED TV</td>
+                        <td>***</td>
+                        <td>250 kWh</td>
+                    </tr>
+                    <tr>
+                        <td>75-inch 4K TV</td>
+                        <td>**</td>
+                        <td>400 kWh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section: Comparison of TV Technologies -->
+        <section id="comparison">
+            <h2>Energy Consumption by TV Technology</h2>
+            <p>Different display technologies have varying power consumption levels.</p>
+            
+            <!-- Table: TV Technology Energy Usage -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Average Power Usage (Watt per Hour)</th>
+                        <th>Energy Efficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LED TVs</td>
+                        <td>30 - 100W</td>
+                        <td> Most Efficient</td>
+                    </tr>
+                    <tr>
+                        <td>OLED TVs</td>
+                        <td>90 - 150W</td>
+                        <td> Moderately Efficient</td>
+                    </tr>
+                    <tr>
+                        <td>Plasma TVs</td>
+                        <td>200 - 400W</td>
+                        <td> Least Efficient</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section: Power Consumption vs Brand -->
+        <section id="brand-comparison">
+            <h2>Power Consumption vs Brand</h2>
+            <p>Explore how different television brands compare in terms of power consumption. This information can help you choose a brand that aligns with your energy-saving goals.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Brand</th>
+                        <th>Average Power Usage (Watt per Hour)</th>
+                        <th>Energy Efficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Brand A</td>
+                        <td>50 - 120W</td>
+                        <td>Highly Efficient</td>
+                    </tr>
+                    <tr>
+                        <td>Brand B</td>
+                        <td>80 - 150W</td>
+                        <td>Moderately Efficient</td>
+                    </tr>
+                    <tr>
+                        <td>Brand C</td>
+                        <td>100 - 200W</td>
+                        <td>Less Efficient</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sidebar Section: Quick Energy-Saving Tips -->
+        <aside id="energy-tips">
+            <h3> Quick Energy-Saving Tips</h3>
+            <ul>
+                <li> Enable <strong>Energy-Saving Mode</strong> on your TV</li>
+                <li> Reduce <strong>screen brightness</strong> to save power</li>
+                <li> Always <strong>turn off</strong> your TV instead of using standby mode</li>
+                <li> Choose <strong>higher star-rated TVs</strong> for better efficiency</li>
+            </ul>
+        </aside>
+
+     
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="year"></span> Sahil Amin. Generated with assistance of Copilot and GenAI</p>
+    </footer>
+
+    <!-- JavaScript File for Page Interactivity -->
+    <script src="js/scripts.js"></script>
+    
+    <script>
+        // Automatically update the year in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
